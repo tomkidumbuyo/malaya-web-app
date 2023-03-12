@@ -48,7 +48,7 @@ When new changes are made on the code, a you can build again, create a tag and t
 ## Runing the kubernetes cluster
 First update the tag version on Deployment/chart/nodeserver/Values. as of writing the `tag` parameter is on `line 7` of `Deployment/chart/nodeserver/Values`. Any changes on the file please update here.
 
-in order to use the hel chart to deploy your application please run
+In order to use the hel chart to deploy your application please run
 ```sh
 helm install deploymentserver Deployment/chart/deploymentserver
 ```  
